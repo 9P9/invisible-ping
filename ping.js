@@ -1,8 +1,6 @@
 const request = require('request');
-const colors = require('colors');
 const chalk = require('chalk');
 const prompt = require('prompt');
-const fs = require('fs');
 
 process.on('uncaughtException', e => {});
 process.on('uncaughtRejection', e => {});
